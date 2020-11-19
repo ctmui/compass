@@ -1,0 +1,25 @@
+{
+  "name": "@ctm/compass",
+  "version": "1.0.0",
+  "description": "CTM Compass component lib",
+  "main": "snowpack.config.js",
+  "scripts": {
+    "dev": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctmui/compass.git"
+  },
+  "author": "Robert Balfre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctmui/compass/issues"
+  },
+  "homepage": "https://github.com/ctmui/compass#readme",
+  "dependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.4",
+    "@snowpack/plugin-svelte": "^3.3.0",
+    "snowpack": "^2.17.1",
+    "svelte": "^3.29.7"
+  }
+}

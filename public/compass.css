@@ -1,0 +1,129 @@
+:root {
+  --compass-red-1: #ffe9e9;
+  --compass-red-2: #ffd7d9;
+  --compass-red-3: #ffb3b8;
+  --compass-red-4: #ff8389;
+  --compass-red-5: #fa4d56;
+  --compass-red-6: #da1e28;
+  --compass-red-7: #bd171e;
+  --compass-red-8: #a31017;
+  --compass-red-9: #750e13;
+  --compass-red-10: #590408;
+
+  --compass-magenta-1: #ffeaf4;
+  --compass-magenta-2: #ffd6e8;
+  --compass-magenta-3: #ffafd2;
+  --compass-magenta-4: #ff7eb6;
+  --compass-magenta-5: #ee5396;
+  --compass-magenta-6: #d72472;
+  --compass-magenta-7: #b91d61;
+  --compass-magenta-8: #a20e4e;
+  --compass-magenta-9: #740937;
+  --compass-magenta-10: #60012a;
+
+  --compass-orange-1: #fee4d1;
+  --compass-orange-2: #fdc9a4;
+  --compass-orange-3: #fdae76;
+  --compass-orange-4: #fd842e;
+  --compass-orange-5: #ef6400;
+  --compass-orange-6: #c45302;
+  --compass-orange-7: #ac4800;
+  --compass-orange-8: #923a03;
+  --compass-orange-9: #783003;
+  --compass-orange-10: #592402;
+
+  --compass-gold-1: #fdefbb;
+  --compass-gold-2: #fddc69;
+  --compass-gold-3: #f1c21b;
+  --compass-gold-4: #e6b006;
+  --compass-gold-5: #c79600;
+  --compass-gold-6: #966f00;
+  --compass-gold-7: #7d5e00;
+  --compass-gold-8: #654d00;
+  --compass-gold-9: #483700;
+  --compass-gold-10: #372a01;
+
+  --compass-purple-1: #e7e1fb;
+  --compass-purple-2: #d7cbfc;
+  --compass-purple-3: #bda9f8;
+  --compass-purple-4: #9376e8;
+  --compass-purple-5: #7c5ade;
+  --compass-purple-6: #6843c6;
+  --compass-purple-7: #592eb4;
+  --compass-purple-8: #46248e;
+  --compass-purple-9: #391775;
+  --compass-purple-10: #2c105b;
+
+  --compass-ocean-blue-1: #e5effc;
+  --compass-ocean-blue-2: #d0e2ff;
+  --compass-ocean-blue-3: #a6c8ff;
+  --compass-ocean-blue-4: #78a9ff;
+  --compass-ocean-blue-5: #4589ff;
+  --compass-ocean-blue-6: #156af4;
+  --compass-ocean-blue-7: #024eeb;
+  --compass-ocean-blue-8: #0031cb;
+  --compass-ocean-blue-9: #002d9c;
+  --compass-ocean-blue-10: #012178;
+
+  --compass-sky-blue-1: #e2f5ff;
+  --compass-sky-blue-2: #bae6ff;
+  --compass-sky-blue-3: #82cfff;
+  --compass-sky-blue-4: #33b1ff;
+  --compass-sky-blue-5: #1192e8;
+  --compass-sky-blue-6: #0072c3;
+  --compass-sky-blue-7: #0160b3;
+  --compass-sky-blue-8: #004f94;
+  --compass-sky-blue-9: #003a6d;
+  --compass-sky-blue-10: #012d55;
+
+  --compass-cyan-1: #d5fcfc;
+  --compass-cyan-2: #9ef0f0;
+  --compass-cyan-3: #3ddbd9;
+  --compass-cyan-4: #08bdba;
+  --compass-cyan-5: #01a3a0;
+  --compass-cyan-6: #018482;
+  --compass-cyan-7: #007474;
+  --compass-cyan-8: #016368;
+  --compass-cyan-9: #005255;
+  --compass-cyan-10: #00434b;
+
+  --compass-green-1: #ecfbde;
+  --compass-green-2: #d9f7be;
+  --compass-green-3: #b7eb8f;
+  --compass-green-4: #95de64;
+  --compass-green-5: #73d13d;
+  --compass-green-6: #52c41a;
+  --compass-green-7: #3db10d;
+  --compass-green-8: #319a0a;
+  --compass-green-9: #228006;
+  --compass-green-10: #166502;
+
+  --compass-n0: #ffffff;
+  --compass-n1: #fafbfc;
+  --compass-n2: #f4f5f7;
+  --compass-n3: #ebecf0;
+  --compass-n4: #dfe1e6;
+  --compass-n5: #ced3da;
+  --compass-n6: #bec4cd;
+  --compass-n7: #abb1bb;
+  --compass-n8: #96a1a9;
+  --compass-n9: #89949c;
+
+  --compass-n10: #7c878f;
+  --compass-n11: #6d7880;
+  --compass-n12: #626d75;
+  --compass-n13: #556068;
+  --compass-n14: #48535b;
+  --compass-n15: #3b464e;
+  --compass-n16: #2d3840;
+  --compass-n17: #202b33;
+  --compass-n18: #131e26;
+  --compass-n19: #141b22;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0;
+  margin: 0;
+}

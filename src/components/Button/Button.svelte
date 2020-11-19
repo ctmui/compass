@@ -18,7 +18,7 @@
 
 <style>
   :root {
-    --responsive-width: 50%;
+    --responsive-width: 100%;
     --responsive-height: 48px;
     --responsive-padding: 12px 16px;
     --responsive-min-width: 168px;
@@ -34,7 +34,7 @@
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    width: 100%;
+    width: var(--responsive-width);
     display: flex;
     text-align: center;
     align-items: center;
@@ -46,10 +46,6 @@
     opacity: 0.3;
     pointer-events: none;
   }
-
-  /* .compass-button:hover {
-    background: var(--compass-ocean-blue-7);
-  } */
 
   .compass-button:active {
     background: var(--compass-ocean-blue-8);
@@ -63,10 +59,6 @@
     background: var(--compass-red-6);
   }
 
-  /* .destructive:hover {
-    background: var(--compass-red-7);
-  } */
-
   .destructive:active {
     background: var(--compass-red-8);
   }
@@ -75,10 +67,6 @@
     background: var(--compass-green-6);
   }
 
-  /* .success:hover {
-    background: var(--compass-green-7);
-  } */
-
   .success:active {
     background: var(--compass-green-8);
   }
@@ -86,10 +74,6 @@
   .basic {
     background: var(--compass-n6);
   }
-
-  /* .basic:hover {
-    background: var(--compass-n7);
-  } */
 
   .basic:active {
     background: var(--compass-n8);
@@ -169,7 +153,10 @@
 
   @media (min-width: 768px) {
     :root {
-      
+      --responsive-width: unset;
+      --responsive-height: 48px;
+      --responsive-padding: 12px 24px;
+      --responsive-min-width: 100px;
     }
 
     .is-mobile-half-width {
@@ -182,6 +169,82 @@
 
     .x-small {
       height: 40px;
+    }
+
+    .compass-button:hover {
+      background: var(--compass-ocean-blue-7);
+    }
+
+    .compass-button:active {
+      background: var(--compass-ocean-blue-8);
+    }
+
+    .destructive:hover {
+      background: var(--compass-red-7);
+    }
+
+    .destructive:active {
+      background: var(--compass-red-8);
+    }
+    .success:hover {
+      background: var(--compass-green-7);
+    }
+    .success:active {
+      background: var(--compass-green-8);
+    }
+    .basic:hover {
+      background: var(--compass-n7);
+    }
+
+    .basic:active {
+      background: var(--compass-n8);
+    }
+
+    .theme-outline:hover {
+      background: var(--compass-ocean-blue-1);
+    }
+
+    .theme-outline:active {
+      background: var(--compass-ocean-blue-2);
+    }
+
+    .theme-outline.destructive:hover {
+      background: var(--compass-red-1);
+    }
+
+    .theme-outline.destructive:active {
+      background: var(--compass-red-2);
+    }
+
+    .theme-outline.success:hover {
+      background: var(--compass-green-1);
+    }
+
+    .theme-outline.success:active {
+      background: var(--compass-green-2);
+    }
+    .theme-ghost:hover {
+      background: var(--compass-ocean-blue-1);
+    }
+
+    .theme-ghost:active {
+      background: var(--compass-ocean-blue-2);
+    }
+
+    .theme-ghost.destructive:hover {
+      background: var(--compass-red-1);
+    }
+
+    .theme-ghost.destructive:active {
+      background: var(--compass-red-2);
+    }
+
+    .theme-ghost.success:hover {
+      background: var(--compass-green-1);
+    }
+
+    .theme-ghost.success:active {
+      background: var(--compass-green-2);
     }
   }
 </style>

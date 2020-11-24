@@ -85,12 +85,14 @@
     height: 24px;
     min-height: 24px;
     margin: 0 8px 0 0;
+    padding: 2px;
   }
 
   .is-icon-only {
     width: 48px;
     min-width: 48px;
     max-width: 48px;
+    padding: 12px;
   }
 
   .is-icon-only i {
@@ -169,6 +171,11 @@
 
     .x-small {
       height: 40px;
+    }
+
+    .has-icon {
+      padding-left: 16px;
+      padding-right: 16px;
     }
 
     .compass-button:hover {
@@ -254,7 +261,8 @@
   disabled={isDisabled}
   class="compass-button {size} {layerStyle} theme-{theme}"
   class:is-mobile-half-width={isMobileHalfWidth}
-  class:is-icon-only={isIconOnly}>
+  class:is-icon-only={isIconOnly}
+  class:has-icon={Icon}>
   {#if Icon}
     <i><svelte:component this={Icon} /></i>
   {/if}

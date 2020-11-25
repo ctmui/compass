@@ -8,6 +8,7 @@ export interface ButtonProps {
   isIconOnly?: boolean;
   isDisabled?: boolean;
   isMobileHalfWidth?: boolean;
+  click?: () => void;
 }
 
 declare class Button extends SvelteComponent {

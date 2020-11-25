@@ -102,7 +102,7 @@
   .theme-outline {
     border: 1px solid var(--compass-ocean-blue-6);
     color: var(--compass-ocean-blue-6);
-    background: transparent;
+    background: #fff;
   }
 
   .theme-outline:active {
@@ -130,7 +130,7 @@
   .theme-ghost {
     border: none;
     color: var(--compass-ocean-blue-6);
-    background: transparent;
+    background: #fff;
   }
 
   .theme-ghost:active {

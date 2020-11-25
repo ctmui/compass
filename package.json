@@ -20,6 +20,8 @@
   "dependencies": {
     "@snowpack/plugin-dotenv": "^2.0.4",
     "@snowpack/plugin-svelte": "^3.3.0",
+    "prism-svelte": "^0.4.7",
+    "prismjs": "^1.22.0",
     "snowpack": "^2.17.1",
     "svelte": "^3.29.7"
   }

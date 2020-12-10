@@ -266,5 +266,7 @@
   {#if Icon}
     <i><svelte:component this={Icon} /></i>
   {/if}
-  <slot />
+  {#if !isIconOnly}
+    <slot />
+  {/if}
 </button>

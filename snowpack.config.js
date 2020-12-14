@@ -5,6 +5,6 @@ module.exports = {
   },
   plugins: ["@snowpack/plugin-svelte", "@snowpack/plugin-dotenv"],
   alias: {
-    "@ctm/compass": "./src/components/index.js"
-  }
+    "@ctm/compass": "./src/components/index.js",
+  },
 };
